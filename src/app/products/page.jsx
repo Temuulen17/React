@@ -7,17 +7,17 @@ const data = [
   {
     id: 1,
     name: "iphone 17",
-    price: 18999,
+    price: 1200,
   },
   {
     id: 2,
     name: "macbook",
-    price: 1234,
+    price: 1500,
   },
   {
     id: 3,
     name: "car",
-    price: 111111,
+    price: 200000,
   },
 ];
 
