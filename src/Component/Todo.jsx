@@ -1,8 +1,7 @@
-"use client";
-import { use, useState } from "react";
-import { Buttons } from "@/app/Component/Buttons";
 
-export default function Todo(props) {
+import { Buttons } from "./Buttons";
+
+export  function Todo(props) {
   const {
     tasks,
     setTasks,
@@ -42,7 +41,7 @@ export default function Todo(props) {
       <ol className="flex flex-col gap-2">
         {visibleTask.map((task, i) => (
           <li
-            key={task.id}
+            key={i}
             className="flex gap-2 relative w-[345px]  py-2 px-3 items-center justify-between bg-gray-200 rounded-[5px] b"
           >
             <input
